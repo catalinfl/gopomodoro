@@ -25,6 +25,7 @@ func Flags() {
 		fmt.Println("-help = show help cmds")
 		fmt.Println("-set <int> = set duration of the pomodoro, pause is duration / 5")
 		fmt.Println("-color [red, green, yellow, blue, magenta, cyan, white] = set color of the pomodoro")
+		fmt.Println("example: gopomodoro -set 35 -color green")
 		os.Exit(0)
 	}
 
